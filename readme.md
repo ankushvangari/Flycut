@@ -12,12 +12,25 @@ Every time you copy a code piece, Flycut stores it in history. Later, you can pa
 
 ## Install
 
-1. Download the latest `.dmg` from [Releases](https://github.com/haad/Flycut/releases)
+### Homebrew (recommended)
+
+```sh
+brew install --cask ankushvangari/tap/flycut
+```
+
+This installs Flycut to your Applications folder and launches **without any Gatekeeper warning**. Update later with `brew upgrade --cask flycut`.
+
+### Manual (.dmg)
+
+1. Download the latest `.dmg` from [Releases](https://github.com/ankushvangari/Flycut/releases/latest)
 2. Open the `.dmg` and drag Flycut to your Applications folder
-3. Launch Flycut — macOS will show a warning because the app is not from the App Store
-4. Go to **System Settings -> Privacy & Security**, scroll down and click **Open Anyway**
+3. Launch Flycut — macOS will show a warning because the app is not notarized
+4. Go to **System Settings → Privacy & Security**, scroll down and click **Open Anyway**
 5. Launch Flycut again
-6. Go to **System Settings -> Privacy & Security -> Accessibility** and enable Flycut — this is required for Flycut to paste on your behalf
+
+### Enable paste
+
+After installing, go to **System Settings → Privacy & Security → Accessibility** and enable Flycut — this is required for Flycut to paste on your behalf.
 
 ## Keyboard Shortcuts
 
